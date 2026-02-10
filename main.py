@@ -9,7 +9,7 @@ import json
 import os
 import hashlib
 
-BOT_TOKEN = os.environ.get("8235755300:AAF0uNjhBmQDCeFUKWg50DIq_De9Zg5hN-A")
+BOT_TOKEN = os.environ.get("BOT_TOKEN","8235755300:AAF0uNjhBmQDCeFUKWg50DIq_De9Zg5hN-A")
 DEFAULT_OWNERS = [7011937754]
 
 if not BOT_TOKEN:
